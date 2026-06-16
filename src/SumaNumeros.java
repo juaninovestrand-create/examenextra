@@ -11,7 +11,7 @@ System.out.print("Introduce el segundo número: ");
 int numero2 = scanner.nextInt(); 
 
 int suma = numero1 - numero2; 
- 
+ int suma = numero1 * numero2; 
 System.out.println("La suma de " + numero1 + " y " + numero2 + " es: " + suma); 
 
 scanner.close(); 
